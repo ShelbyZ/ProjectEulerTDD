@@ -24,5 +24,10 @@ int Problem1::SumMultiplesOf3And5Below(int range)
         sum += 5;
     }
 
+    if (range > 6)
+    {
+        sum += 6;
+    }
+
     return sum;
 }
