@@ -171,5 +171,11 @@ namespace ProjectEulerTests
             auto result = Problem1::SumBelow(100000);
             Assert::AreEqual(704982704L, result);
         }
+
+        TEST_METHOD(SumDivisibleBy_Input3and0_Returns0)
+        {
+            auto result = Problem1::SumDivisibleBy(3, 0L);
+            Assert::AreEqual(0L, result);
+        }
 	};
 }
