@@ -111,5 +111,11 @@ namespace ProjectEulerTests
             auto result = Problem1::SumBelow(2);
             Assert::AreEqual(1L, result);
         }
+
+        TEST_METHOD(SumBelow_Input3_Returns3)
+        {
+            auto result = Problem1::SumBelow(3);
+            Assert::AreEqual(3L, result);
+        }
 	};
 }
