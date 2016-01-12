@@ -30,5 +30,5 @@ int Problem1::SumMultiplesOf3And5Below(int range)
 
 long Problem1::SumBelow(long range)
 {
-    return -1;
+    return 0;
 }
