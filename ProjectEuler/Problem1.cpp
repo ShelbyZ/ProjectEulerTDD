@@ -27,3 +27,8 @@ int Problem1::SumMultiplesOf3And5Below(int range)
 
     return sum;
 }
+
+long Problem1::SumBelow(long range)
+{
+    return -1;
+}
