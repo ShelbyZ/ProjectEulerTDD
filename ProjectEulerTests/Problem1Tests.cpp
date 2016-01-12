@@ -117,5 +117,59 @@ namespace ProjectEulerTests
             auto result = Problem1::SumBelow(3);
             Assert::AreEqual(3L, result);
         }
+
+        TEST_METHOD(SumBelow_Input4_Returns6)
+        {
+            auto result = Problem1::SumBelow(4);
+            Assert::AreEqual(6L, result);
+        }
+
+        TEST_METHOD(SumBelow_Input5_Returns10)
+        {
+            auto result = Problem1::SumBelow(5);
+            Assert::AreEqual(10L, result);
+        }
+
+        TEST_METHOD(SumBelow_Input6_Returns15)
+        {
+            auto result = Problem1::SumBelow(6);
+            Assert::AreEqual(15L, result);
+        }
+
+        TEST_METHOD(SumBelow_Input7_Returns21)
+        {
+            auto result = Problem1::SumBelow(7);
+            Assert::AreEqual(21L, result);
+        }
+
+        TEST_METHOD(SumBelow_Input8_Returns28)
+        {
+            auto result = Problem1::SumBelow(8);
+            Assert::AreEqual(28L, result);
+        }
+
+        TEST_METHOD(SumBelow_Input9_Returns36)
+        {
+            auto result = Problem1::SumBelow(9);
+            Assert::AreEqual(36L, result);
+        }
+
+        TEST_METHOD(SumBelow_Input10_Returns45)
+        {
+            auto result = Problem1::SumBelow(10);
+            Assert::AreEqual(45L, result);
+        }
+
+        TEST_METHOD(SumBelow_Input100_Returns4950)
+        {
+            auto result = Problem1::SumBelow(100);
+            Assert::AreEqual(4950L, result);
+        }
+
+        TEST_METHOD(SumBelow_Input100000_Returns704982704)
+        {
+            auto result = Problem1::SumBelow(100000);
+            Assert::AreEqual(704982704L, result);
+        }
 	};
 }
