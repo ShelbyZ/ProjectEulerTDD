@@ -38,5 +38,5 @@ long Problem1::SumBelow(long range)
 
 long Problem1::SumDivisibleBy(int divisor, long range)
 {
-    return -1;
+    return 0;
 }
