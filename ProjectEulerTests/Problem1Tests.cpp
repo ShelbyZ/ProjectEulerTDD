@@ -39,5 +39,11 @@ namespace ProjectEulerTests
             auto result = Problem1::SumMultiplesOf3And5Below(4);
             Assert::AreEqual(3, result);
         }
+
+        TEST_METHOD(SumMultiplesOf3And5Below_Input5_Returns3)
+        {
+            auto result = Problem1::SumMultiplesOf3And5Below(5);
+            Assert::AreEqual(3, result);
+        }
 	};
 }
