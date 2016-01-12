@@ -30,10 +30,12 @@ int Problem1::SumMultiplesOf3And5Below(int range)
 
 long Problem1::SumBelow(long range)
 {
-    if (range == 2)
+    auto sum = 0;
+
+    for (long i = 1; i <= range; i++)
     {
-        return 1;
+        sum += (i - 1);
     }
 
-    return 0;
+    return sum;
 }
