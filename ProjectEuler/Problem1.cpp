@@ -12,10 +12,17 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 int Problem1::SumMultiplesOf3And5Below(int range)
 {
+    int sum = 0;
+
     if (range > 3)
     {
-        return 3;
+        sum+= 3;
     }
 
-    return 0;
+    if (range > 5)
+    {
+        sum += 5;
+    }
+
+    return sum;
 }
