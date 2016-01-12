@@ -14,19 +14,15 @@ int Problem1::SumMultiplesOf3And5Below(int range)
 {
     int sum = 0;
 
-    if (range > 3)
+    if (range > 0)
     {
-        sum+= 3;
-    }
-
-    if (range > 5)
-    {
-        sum += 5;
-    }
-
-    if (range > 6)
-    {
-        sum += 6;
+        for (size_t i = 1; i < range; i++)
+        {
+            if (i % 3 == 0 || i % 5 == 0)
+            {
+                sum += i;
+            }
+        }
     }
 
     return sum;
