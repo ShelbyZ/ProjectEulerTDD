@@ -4,5 +4,5 @@
 
 class PROJECTEULER_API Problem1 {
 public:
-	Problem1(void);
+    static int SumMultiplesOf3And5Below(int);
 };

@@ -10,8 +10,10 @@ namespace ProjectEulerTests
 	{
 	public:
 		
-		TEST_METHOD(TestMethod1)
+		TEST_METHOD(SumMultiplesOf3And5Below_Input0_Returns0)
 		{
+            auto result = Problem1::SumMultiplesOf3And5Below(0);
+            Assert::AreEqual(0, result);
 		}
 	};
 }
