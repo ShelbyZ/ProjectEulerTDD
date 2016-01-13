@@ -12,20 +12,9 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 int Problem1::SumMultiplesOf3And5Below(int range)
 {
-    int sum = 0;
+    auto result = SumDivisibleBy(3, range) + SumDivisibleBy(5, range) - SumDivisibleBy(15, range);
 
-    if (range > 0)
-    {
-        for (size_t i = 1; i < range; i++)
-        {
-            if (i % 3 == 0 || i % 5 == 0)
-            {
-                sum += i;
-            }
-        }
-    }
-
-    return sum;
+    return result;
 }
 
 long Problem1::Sum(long range)
