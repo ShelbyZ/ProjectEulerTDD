@@ -100,6 +100,12 @@ namespace ProjectEulerTests
             Assert::AreEqual(2333316668UL, result);
         }
 
+        TEST_METHOD(SumMultiplesOf3And5Below_Input1000000_Returns2333316668)
+        {
+            auto result = Problem1::SumMultiplesOf3And5Below(1000000);
+            Assert::AreEqual(2333316668UL, result);
+        }
+
         TEST_METHOD(Sum_Input0_Returns0)
         {
             auto result = Problem1::Sum(0);
