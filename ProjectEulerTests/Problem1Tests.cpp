@@ -94,82 +94,82 @@ namespace ProjectEulerTests
             Assert::AreEqual(23331668, result);
         }
 
-        TEST_METHOD(SumBelow_Input0_Returns0)
+        TEST_METHOD(Sum_Input0_Returns0)
         {
-            auto result = Problem1::SumBelow(0);
+            auto result = Problem1::Sum(0);
             Assert::AreEqual(0L, result);
         }
 
-        TEST_METHOD(SumBelow_Input1_Returns0)
+        TEST_METHOD(Sum_Input1_Returns1)
         {
-            auto result = Problem1::SumBelow(1);
-            Assert::AreEqual(0L, result);
-        }
-
-        TEST_METHOD(SumBelow_Input2_Returns1)
-        {
-            auto result = Problem1::SumBelow(2);
+            auto result = Problem1::Sum(1);
             Assert::AreEqual(1L, result);
         }
 
-        TEST_METHOD(SumBelow_Input3_Returns3)
+        TEST_METHOD(Sum_Input2_Returns3)
         {
-            auto result = Problem1::SumBelow(3);
+            auto result = Problem1::Sum(2);
             Assert::AreEqual(3L, result);
         }
 
-        TEST_METHOD(SumBelow_Input4_Returns6)
+        TEST_METHOD(Sum_Input3_Returns6)
         {
-            auto result = Problem1::SumBelow(4);
+            auto result = Problem1::Sum(3);
             Assert::AreEqual(6L, result);
         }
 
-        TEST_METHOD(SumBelow_Input5_Returns10)
+        TEST_METHOD(Sum_Input4_Returns10)
         {
-            auto result = Problem1::SumBelow(5);
+            auto result = Problem1::Sum(4);
             Assert::AreEqual(10L, result);
         }
 
-        TEST_METHOD(SumBelow_Input6_Returns15)
+        TEST_METHOD(Sum_Input5_Returns15)
         {
-            auto result = Problem1::SumBelow(6);
+            auto result = Problem1::Sum(5);
             Assert::AreEqual(15L, result);
         }
 
-        TEST_METHOD(SumBelow_Input7_Returns21)
+        TEST_METHOD(Sum_Input6_Returns21)
         {
-            auto result = Problem1::SumBelow(7);
+            auto result = Problem1::Sum(6);
             Assert::AreEqual(21L, result);
         }
 
-        TEST_METHOD(SumBelow_Input8_Returns28)
+        TEST_METHOD(Sum_Input7_Returns28)
         {
-            auto result = Problem1::SumBelow(8);
+            auto result = Problem1::Sum(7);
             Assert::AreEqual(28L, result);
         }
 
-        TEST_METHOD(SumBelow_Input9_Returns36)
+        TEST_METHOD(Sum_Input8_Returns36)
         {
-            auto result = Problem1::SumBelow(9);
+            auto result = Problem1::Sum(8);
             Assert::AreEqual(36L, result);
         }
 
-        TEST_METHOD(SumBelow_Input10_Returns45)
+        TEST_METHOD(Sum_Input9_Returns45)
         {
-            auto result = Problem1::SumBelow(10);
+            auto result = Problem1::Sum(9);
             Assert::AreEqual(45L, result);
         }
 
-        TEST_METHOD(SumBelow_Input100_Returns4950)
+        TEST_METHOD(Sum_Input10_Returns55)
         {
-            auto result = Problem1::SumBelow(100);
-            Assert::AreEqual(4950L, result);
+            auto result = Problem1::Sum(10);
+            Assert::AreEqual(55L, result);
         }
 
-        TEST_METHOD(SumBelow_Input100000_Returns704982704)
+        TEST_METHOD(Sum_Input100_Returns5050)
         {
-            auto result = Problem1::SumBelow(100000);
-            Assert::AreEqual(704982704L, result);
+            auto result = Problem1::Sum(100);
+            Assert::AreEqual(5050L, result);
+        }
+
+        TEST_METHOD(Sum_Input100000_Returns705082704)
+        {
+            auto result = Problem1::Sum(100000);
+            Assert::AreEqual(705082704L, result);
         }
 
         TEST_METHOD(SumDivisibleBy_Input3and0_Returns0)

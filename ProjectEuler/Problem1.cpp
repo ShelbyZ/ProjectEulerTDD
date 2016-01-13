@@ -28,9 +28,8 @@ int Problem1::SumMultiplesOf3And5Below(int range)
     return sum;
 }
 
-long Problem1::SumBelow(long range)
+long Problem1::Sum(long range)
 {
-    range--;
     auto sum = (range * (range + 1)) / 2;
 
     return sum;
@@ -38,15 +37,8 @@ long Problem1::SumBelow(long range)
 
 long Problem1::SumDivisibleBy(int divisor, long range)
 {
-    if (range > 3 && divisor == 3)
-    {
-        return 3;
-    }
+    auto result = Sum((range - 1) / divisor);
+    result *= divisor;
 
-    if (range > 5)
-    {
-        return 5;
-    }
-
-    return 0;
+    return result;
 }
