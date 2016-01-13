@@ -103,151 +103,151 @@ namespace ProjectEulerTests
         TEST_METHOD(Sum_Input0_Returns0)
         {
             auto result = Problem1::Sum(0);
-            Assert::AreEqual(0L, result);
+            Assert::AreEqual(0UL, result);
         }
 
         TEST_METHOD(Sum_Input1_Returns1)
         {
             auto result = Problem1::Sum(1);
-            Assert::AreEqual(1L, result);
+            Assert::AreEqual(1UL, result);
         }
 
         TEST_METHOD(Sum_Input2_Returns3)
         {
             auto result = Problem1::Sum(2);
-            Assert::AreEqual(3L, result);
+            Assert::AreEqual(3UL, result);
         }
 
         TEST_METHOD(Sum_Input3_Returns6)
         {
             auto result = Problem1::Sum(3);
-            Assert::AreEqual(6L, result);
+            Assert::AreEqual(6UL, result);
         }
 
         TEST_METHOD(Sum_Input4_Returns10)
         {
             auto result = Problem1::Sum(4);
-            Assert::AreEqual(10L, result);
+            Assert::AreEqual(10UL, result);
         }
 
         TEST_METHOD(Sum_Input5_Returns15)
         {
             auto result = Problem1::Sum(5);
-            Assert::AreEqual(15L, result);
+            Assert::AreEqual(15UL, result);
         }
 
         TEST_METHOD(Sum_Input6_Returns21)
         {
             auto result = Problem1::Sum(6);
-            Assert::AreEqual(21L, result);
+            Assert::AreEqual(21UL, result);
         }
 
         TEST_METHOD(Sum_Input7_Returns28)
         {
             auto result = Problem1::Sum(7);
-            Assert::AreEqual(28L, result);
+            Assert::AreEqual(28UL, result);
         }
 
         TEST_METHOD(Sum_Input8_Returns36)
         {
             auto result = Problem1::Sum(8);
-            Assert::AreEqual(36L, result);
+            Assert::AreEqual(36UL, result);
         }
 
         TEST_METHOD(Sum_Input9_Returns45)
         {
             auto result = Problem1::Sum(9);
-            Assert::AreEqual(45L, result);
+            Assert::AreEqual(45UL, result);
         }
 
         TEST_METHOD(Sum_Input10_Returns55)
         {
             auto result = Problem1::Sum(10);
-            Assert::AreEqual(55L, result);
+            Assert::AreEqual(55UL, result);
         }
 
         TEST_METHOD(Sum_Input100_Returns5050)
         {
             auto result = Problem1::Sum(100);
-            Assert::AreEqual(5050L, result);
+            Assert::AreEqual(5050UL, result);
         }
 
         TEST_METHOD(Sum_Input100000_Returns705082704)
         {
             auto result = Problem1::Sum(100000);
-            Assert::AreEqual(705082704L, result);
+            Assert::AreEqual(705082704UL, result);
         }
 
         TEST_METHOD(SumDivisibleBy_Input3and0_Returns0)
         {
             auto result = Problem1::SumDivisibleBy(3, 0L);
-            Assert::AreEqual(0L, result);
+            Assert::AreEqual(0UL, result);
         }
 
         TEST_METHOD(SumDivisibleBy_Input3and1_Returns0)
         {
             auto result = Problem1::SumDivisibleBy(3, 1L);
-            Assert::AreEqual(0L, result);
+            Assert::AreEqual(0UL, result);
         }
 
         TEST_METHOD(SumDivisibleBy_Input3and2_Returns0)
         {
             auto result = Problem1::SumDivisibleBy(3, 2L);
-            Assert::AreEqual(0L, result);
+            Assert::AreEqual(0UL, result);
         }
 
         TEST_METHOD(SumDivisibleBy_Input3and3_Returns0)
         {
             auto result = Problem1::SumDivisibleBy(3, 3L);
-            Assert::AreEqual(0L, result);
+            Assert::AreEqual(0UL, result);
         }
 
         TEST_METHOD(SumDivisibleBy_Input3and4_Returns3)
         {
             auto result = Problem1::SumDivisibleBy(3, 4L);
-            Assert::AreEqual(3L, result);
+            Assert::AreEqual(3UL, result);
         }
 
         TEST_METHOD(SumDivisibleBy_Input5and0_Returns0)
         {
             auto result = Problem1::SumDivisibleBy(5, 0L);
-            Assert::AreEqual(0L, result);
+            Assert::AreEqual(0UL, result);
         }
 
         TEST_METHOD(SumDivisibleBy_Input5and1_Returns0)
         {
             auto result = Problem1::SumDivisibleBy(5, 1L);
-            Assert::AreEqual(0L, result);
+            Assert::AreEqual(0UL, result);
         }
 
         TEST_METHOD(SumDivisibleBy_Input5and2_Returns0)
         {
             auto result = Problem1::SumDivisibleBy(5, 2L);
-            Assert::AreEqual(0L, result);
+            Assert::AreEqual(0UL, result);
         }
 
         TEST_METHOD(SumDivisibleBy_Input5and3_Returns0)
         {
             auto result = Problem1::SumDivisibleBy(5, 3L);
-            Assert::AreEqual(0L, result);
+            Assert::AreEqual(0UL, result);
         }
 
         TEST_METHOD(SumDivisibleBy_Input5and4_Returns0)
         {
             auto result = Problem1::SumDivisibleBy(5, 4L);
-            Assert::AreEqual(0L, result);
+            Assert::AreEqual(0UL, result);
         }
 
         TEST_METHOD(SumDivisibleBy_Input5and5_Returns0)
         {
             auto result = Problem1::SumDivisibleBy(5, 5L);
-            Assert::AreEqual(0L, result);
+            Assert::AreEqual(0UL, result);
         }
 
         TEST_METHOD(SumDivisibleBy_Input5and6_Returns5)
         {
             auto result = Problem1::SumDivisibleBy(5, 6L);
-            Assert::AreEqual(5L, result);
+            Assert::AreEqual(5UL, result);
         }
 	};
 }
