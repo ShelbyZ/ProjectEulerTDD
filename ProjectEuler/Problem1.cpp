@@ -10,7 +10,7 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 Find the sum of all the multiples of 3 or 5 below 1000.
 */
 
-int Problem1::SumMultiplesOf3And5Below(int range)
+unsigned long Problem1::SumMultiplesOf3And5Below(int range)
 {
     auto result = SumDivisibleBy(3, range) + SumDivisibleBy(5, range) - SumDivisibleBy(15, range);
 

@@ -4,7 +4,7 @@
 
 class PROJECTEULER_API Problem1 {
 public:
-    static int SumMultiplesOf3And5Below(int);
+    static unsigned long SumMultiplesOf3And5Below(int);
     static long Sum(long);
     static long SumDivisibleBy(int, long);
 };
