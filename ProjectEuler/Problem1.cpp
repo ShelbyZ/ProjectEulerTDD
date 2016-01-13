@@ -38,7 +38,7 @@ long Problem1::SumBelow(long range)
 
 long Problem1::SumDivisibleBy(int divisor, long range)
 {
-    if (range > 3)
+    if (range > 3 && divisor == 3)
     {
         return 3;
     }
