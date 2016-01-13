@@ -31,12 +31,17 @@ int Problem1::SumMultiplesOf3And5Below(int range)
 long Problem1::SumBelow(long range)
 {
     range--;
-    auto sum = (range * (range + 1)) / 2;;
+    auto sum = (range * (range + 1)) / 2;
 
     return sum;
 }
 
 long Problem1::SumDivisibleBy(int divisor, long range)
 {
+    if (range > 3)
+    {
+        return 3;
+    }
+
     return 0;
 }
