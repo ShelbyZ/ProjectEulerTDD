@@ -184,6 +184,12 @@ namespace ProjectEulerTests
             Assert::AreEqual(5000050000ULL, result);
         }
 
+        TEST_METHOD(Sum_Input1000000_Returns500000500000)
+        {
+            auto result = Problem1::Sum(1000000);
+            Assert::AreEqual(500000500000ULL, result);
+        }
+
         TEST_METHOD(SumDivisibleBy_Input3and0_Returns0)
         {
             auto result = Problem1::SumDivisibleBy(3, 0L);
@@ -212,6 +218,12 @@ namespace ProjectEulerTests
         {
             auto result = Problem1::SumDivisibleBy(3, 4L);
             Assert::AreEqual(3ULL, result);
+        }
+
+        TEST_METHOD(SumDivisibleBy_Input3and1000000_Returns166666833333)
+        {
+            auto result = Problem1::SumDivisibleBy(3, 1000000L);
+            Assert::AreEqual(166666833333ULL, result);
         }
 
         TEST_METHOD(SumDivisibleBy_Input5and0_Returns0)
@@ -254,6 +266,18 @@ namespace ProjectEulerTests
         {
             auto result = Problem1::SumDivisibleBy(5, 6L);
             Assert::AreEqual(5ULL, result);
+        }
+
+        TEST_METHOD(SumDivisibleBy_Input5and1000000_Returns99999500000)
+        {
+            auto result = Problem1::SumDivisibleBy(5, 1000000L);
+            Assert::AreEqual(99999500000ULL, result);
+        }
+
+        TEST_METHOD(SumDivisibleBy_Input15and1000000_Returns33333166665)
+        {
+            auto result = Problem1::SumDivisibleBy(15, 1000000L);
+            Assert::AreEqual(33333166665ULL, result);
         }
 	};
 }
