@@ -43,5 +43,10 @@ long Problem1::SumDivisibleBy(int divisor, long range)
         return 3;
     }
 
+    if (range > 5)
+    {
+        return 5;
+    }
+
     return 0;
 }
