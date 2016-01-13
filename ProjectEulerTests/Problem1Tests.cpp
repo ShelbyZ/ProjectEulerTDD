@@ -237,5 +237,11 @@ namespace ProjectEulerTests
             auto result = Problem1::SumDivisibleBy(5, 5L);
             Assert::AreEqual(0L, result);
         }
+
+        TEST_METHOD(SumDivisibleBy_Input5and6_Returns5)
+        {
+            auto result = Problem1::SumDivisibleBy(5, 6L);
+            Assert::AreEqual(5L, result);
+        }
 	};
 }
