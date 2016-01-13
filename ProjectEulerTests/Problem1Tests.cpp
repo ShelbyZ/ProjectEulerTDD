@@ -177,5 +177,23 @@ namespace ProjectEulerTests
             auto result = Problem1::SumDivisibleBy(3, 0L);
             Assert::AreEqual(0L, result);
         }
+
+        TEST_METHOD(SumDivisibleBy_Input3and1_Returns0)
+        {
+            auto result = Problem1::SumDivisibleBy(3, 1L);
+            Assert::AreEqual(0L, result);
+        }
+
+        TEST_METHOD(SumDivisibleBy_Input3and2_Returns0)
+        {
+            auto result = Problem1::SumDivisibleBy(3, 2L);
+            Assert::AreEqual(0L, result);
+        }
+
+        TEST_METHOD(SumDivisibleBy_Input3and3_Returns0)
+        {
+            auto result = Problem1::SumDivisibleBy(3, 3L);
+            Assert::AreEqual(0L, result);
+        }
 	};
 }
