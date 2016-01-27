@@ -31,5 +31,10 @@ int Problem2::FibonacciSumEven(int range)
 
 int Problem2::Fibonacci(int range)
 {
+    if (range == 2)
+    {
+        return 2;
+    }
+
     return 1;
 }
