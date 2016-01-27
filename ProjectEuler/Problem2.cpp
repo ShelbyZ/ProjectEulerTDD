@@ -28,3 +28,8 @@ int Problem2::FibonacciSumEven(int range)
 
     return sum;
 }
+
+int Problem2::Fibonacci(int range)
+{
+    return -1;
+}
