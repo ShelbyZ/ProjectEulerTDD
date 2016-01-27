@@ -35,6 +35,11 @@ int Problem2::Fibonacci(int range)
     {
         return 2;
     }
+    else if (range == 3)
+    {
+        return 3;
+    }
+
 
     return 1;
 }
