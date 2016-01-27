@@ -14,5 +14,5 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 int Problem2::FibonacciSumEven(int range)
 {
-    return -1;
+    return 0;
 }
