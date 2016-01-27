@@ -15,5 +15,11 @@ namespace ProjectEulerTests
             auto result = Problem2::FibonacciSumEven(1);
             Assert::AreEqual(0, result);
         }
+
+        TEST_METHOD(FibonacciSumEven_Input2_Returns2)
+        {
+            auto result = Problem2::FibonacciSumEven(2);
+            Assert::AreEqual(2, result);
+        }
     };
 }
