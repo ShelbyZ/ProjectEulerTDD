@@ -1,0 +1,19 @@
+#include "stdafx.h"
+#include "CppUnitTest.h"
+#include "..\ProjectEuler\Problem2.h"
+
+using namespace Microsoft::VisualStudio::CppUnitTestFramework;
+
+namespace ProjectEulerTests
+{
+    TEST_CLASS(Problem2Tests)
+    {
+    public:
+
+        TEST_METHOD(FibonacciSumEven_Input1_Returns0)
+        {
+            auto result = Problem2::FibonacciSumEven(1);
+            Assert::AreEqual(0, result);
+        }
+    };
+}
