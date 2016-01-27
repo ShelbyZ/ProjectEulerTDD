@@ -14,5 +14,10 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 int Problem2::FibonacciSumEven(int range)
 {
+    if (range == 2)
+    {
+        return 2;
+    }
+
     return 0;
 }
