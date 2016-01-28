@@ -38,6 +38,17 @@ int Problem2::Fibonacci(int range)
     {
         return range;
     }
+    else
+    {
+        auto result = 0;
 
-    return value1 + value2;
+        for (size_t i = 2; i < range; i++)
+        {
+            result = value1 + value2;
+            value1 = value2;
+            value2 = result;
+        }
+
+        return result;
+    }
 }
