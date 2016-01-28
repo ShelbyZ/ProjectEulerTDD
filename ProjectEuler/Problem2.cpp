@@ -31,29 +31,10 @@ int Problem2::FibonacciSumEven(int range)
 
 int Problem2::Fibonacci(int range)
 {
-    auto value1 = 1;
-    auto value2 = 2;
-
-    if (range == 0)
+    if (range == 0 || range == 1)
     {
-        return value1;
+        return 1;
     }
 
-    if (value1 == range || value2 == range)
-    {
-        return range;
-    }
-    else
-    {
-        auto result = 0;
-
-        for (size_t i = 2; i < range; i++)
-        {
-            result = value1 + value2;
-            value1 = value2;
-            value2 = result;
-        }
-
-        return result;
-    }
+    return Fibonacci(range - 1) + Fibonacci(range - 2);
 }
