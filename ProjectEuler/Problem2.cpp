@@ -31,15 +31,13 @@ int Problem2::FibonacciSumEven(int range)
 
 int Problem2::Fibonacci(int range)
 {
-    if (range == 2)
+    auto value1 = 1;
+    auto value2 = 2;
+
+    if (value1 == range || value2 == range)
     {
-        return 2;
-    }
-    else if (range == 3)
-    {
-        return 3;
+        return range;
     }
 
-
-    return 1;
+    return value1 + value2;
 }
