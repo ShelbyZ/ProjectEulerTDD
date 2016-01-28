@@ -34,6 +34,11 @@ int Problem2::Fibonacci(int range)
     auto value1 = 1;
     auto value2 = 2;
 
+    if (range == 0)
+    {
+        return value1;
+    }
+
     if (value1 == range || value2 == range)
     {
         return range;
