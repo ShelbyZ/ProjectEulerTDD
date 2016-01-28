@@ -57,5 +57,11 @@ namespace ProjectEulerTests
             auto result = Problem2::Fibonacci(3);
             Assert::AreEqual(3, result);
         }
+
+        TEST_METHOD(Fibonacci_Input4_Returns5)
+        {
+            auto result = Problem2::Fibonacci(4);
+            Assert::AreEqual(5, result);
+        }
     };
 }
